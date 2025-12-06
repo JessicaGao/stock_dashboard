@@ -3,10 +3,14 @@ from stock_dashboard import *
 
 ## Your Project Structure Now:
 """
-stock_dashboard
-├── stock_dashboard.py    # All stock functions and utilities
-├── main.py               # Main program entry point
-└── watchlist.json        # Auto-generated watchlist data
+stock_dashboard/
+├── main.py                # Main program entry point
+├── stock_dashboard.py     # Core stock data & chart functions
+├── alert.py               # Alert management functions
+├── watchlist.py           # Watchlist management functions
+├── watchlist.json         # Auto-generated watchlist data
+├── alerts.json            # Auto-generated alerts data
+└── README.md              # This file
 """
 
 def show_menu():
